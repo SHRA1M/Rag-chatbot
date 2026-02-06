@@ -36,7 +36,7 @@ A production-ready bilingual (English/Arabic) AI chatbot built with RAG (Retriev
 | Component | Technology |
 |-----------|------------|
 | **LLM** | Llama 3.3 70B (via Groq) |
-| **Embeddings** | paraphrase-multilingual-MiniLM-L12-v2 llama-3.3-70b-versatile|
+| **Embeddings** | paraphrase-multilingual-MiniLM-L12-v2 & llama-3.3-70b-versatile|
 | **Vector Database** | FAISS |
 | **Framework** | LangChain |
 | **Frontend** | Streamlit |
