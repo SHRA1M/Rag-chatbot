@@ -22,7 +22,7 @@ A production-ready bilingual (English/Arabic) AI chatbot built with RAG (Retriev
                                                             └─────────────┘
 ```
 
-## ✨ Features
+##  Features
 
 - **Bilingual Support:** English and Arabic with proper RTL alignment
 - **RAG Pipeline:** Retrieves relevant context from knowledge base before answering
@@ -31,7 +31,7 @@ A production-ready bilingual (English/Arabic) AI chatbot built with RAG (Retriev
 - **Mobile Responsive:** Works on all devices
 - **Guardrails:** No emojis, no legal advice, no specific pricing
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -42,7 +42,7 @@ A production-ready bilingual (English/Arabic) AI chatbot built with RAG (Retriev
 | **Frontend** | Streamlit |
 | **Deployment** | Streamlit Cloud |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── app.py                 # Main Streamlit application
@@ -55,7 +55,7 @@ A production-ready bilingual (English/Arabic) AI chatbot built with RAG (Retriev
     └── config.toml        # Streamlit configuration (confidential) 
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -84,7 +84,7 @@ python ingest_data.py
 streamlit run app.py
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Changing the Knowledge Base
 1. Edit `data/knowledge_base.txt` with your content
@@ -102,14 +102,14 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 BACKUP_MODEL = "llama-3.1-8b-instant"
 ```
 
-## 📝 Key Learnings
+## Key Learnings
 
 1. **Model Size:** Started with 1B, moved to 70B for reliable instruction following
 2. **Chunk Size:** k=4 provides the best balance between context and accuracy
 3. **Embeddings:** Multilingual embeddings are essential for non-English support
 4. **Groq:** Provides fast, free inference for Llama models
 
-## 🌐 Embedding in a Website
+## Embedding in a Website
 
 Use the chat widget HTML to embed on any website:
 ```html
@@ -119,19 +119,19 @@ Use the chat widget HTML to embed on any website:
 </script>
 ```
 
-## 📄 License
+## License
 
 MIT License - feel free to use this for your own projects!
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please open an issue or PR.
 
-## 📬 Contact
+##  Contact
 
 - **Email:** iyas.shraim@gmail.com
 - **Website:** [dp-technologies.net](https://dp-technologies.net)
 
 ---
 
-Built with ❤️ using LangChain, Groq, and Streamlit
+Built with using LangChain, Groq, and Streamlit
